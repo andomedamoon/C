@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "echo",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "*.cpp",
+                "-IC:/Users/breda/Desktop/QT/5.12.1/mingw73_64/include",
+                "-LC:/Users/breda/Desktop/QT/5.12.1/mingw73_64/lib",
+                "-lQt5Core",
+                "-lQt5Gui"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

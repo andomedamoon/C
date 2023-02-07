@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "compilerPath": "C:/Users/breda/Desktop/QT/Tools/mingw730_64/bin/g++",
+            "includePath": [
+                "C:/Users/breda/Desktop/QT/5.12.1/mingw73_64/include",
+                "${workspaceFolder}/**"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
